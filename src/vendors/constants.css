@@ -1,0 +1,18 @@
+:root {
+  /* Font families */
+  --ff-inter: 'Inter', sans-serif;
+
+  /* Font Sizes */
+
+  --fs-base: 0.9375rem;
+  --fs-header: 2.25rem;
+  --fs-header-mobile: 1.75rem;
+  --fs-stat: 1.5rem;
+  --fs-stat-text: 0.75rem;
+
+  /* Colors */
+  --clr-background: #0a0c1c;
+  --clr-dark-purple: #1b1937;
+  --clr-light-purple: #ab5cdb;
+  --clr-light-purple-opacity: #ab5cdbbf;
+}

@@ -1,0 +1,38 @@
+._container {
+  margin-right: 60px;
+}
+
+._header {
+  font-weight: 700;
+  font-size: var(--fs-stat);
+}
+
+._type {
+  font-weight: 400;
+  font-size: var(--fs-stat-text);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 375px) {
+  ._container {
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+
+  ._header {
+    font-weight: 700;
+    font-size: var(--fs-stat);
+    line-height: 1.21;
+  }
+
+  ._type {
+    font-weight: 400;
+    font-size: var(--fs-stat-text);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 2.08;
+    opacity: 0.6;
+  }
+}
