@@ -66,15 +66,41 @@
   list-style: none;
 }
 
+@media screen and (max-width: 768px) {
+  ._container {
+    max-width: 740px;
+  }
+
+  ._contentContainer {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 45px 0 30px;
+  }
+
+  ._title {
+    max-width: 270px;
+    margin-top: 51px;
+    line-height: 1.2;
+  }
+
+  ._text {
+    margin-top: 25px;
+  }
+
+  ._statsContainer {
+    margin-top: 25px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   ._container {
     max-width: 327px;
-    width: 100%;
     flex-direction: column;
   }
 
   ._image {
-    /* 540px */
     max-width: 327px;
     height: 240px;
     width: 100%;

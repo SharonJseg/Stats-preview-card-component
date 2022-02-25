@@ -15,6 +15,12 @@
   opacity: 0.6;
 }
 
+@media screen and (max-width: 768px) {
+  ._container {
+    margin-right: 30px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   ._container {
     margin-right: 0;
